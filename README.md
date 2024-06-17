@@ -1,5 +1,5 @@
 # iPhone Photo Backup Utility (Windows, Python)
-![Python](https://img.shields.io/badge/Language-Python-blue) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) <br><br>
+![Python](https://img.shields.io/badge/Language-Python-blue) ![SQLite](https://img.shields.io/badge/Database-SQLite-blue) ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) <br><br>
 Are you a Windows PC user trying to back up the pictures and videos on your camera roll? Do you prefer the convenience and speed of USC-C file transfer instead of a cloud service? Trying to avoid using a paid app?
 
 

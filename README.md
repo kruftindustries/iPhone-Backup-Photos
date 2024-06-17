@@ -24,8 +24,7 @@ A file prompt will pop up asking where the Manifest file is. Paste the path you 
 
 Click Open and after some time (30 seconds for a large backup on a fast computer) a GUI displays the files found in a table
 
-
-<img src="https://github.com/kruftindustries/iPhone-Backup-Photos/assets/22876292/4f4274b9-cca8-4bc8-b9b4-327b49d0fd86" alt="Select the Manifest.db file in the backup directory">
+<img src="[https://github.com/kruftindustries/iPhone-Backup-Photos/assets/22876292/4f4274b9-cca8-4bc8-b9b4-327b49d0fd86](https://github.com/kruftindustries/iPhone-Backup-Photos/assets/22876292/fd61556c-6b27-4ce3-b069-eedcb5043c13)" alt="Select the Manifest.db file in the backup directory">
 
 Click "Process Files" at the bottom and after a few minutes (the GUI might appear to be not responding while this happens, give it a moment) a new folder called "DCIM" containing the recovered files will be added to the backup directory!
 

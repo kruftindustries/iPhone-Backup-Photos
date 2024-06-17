@@ -1,4 +1,4 @@
-# iPhone-Backup-Photos
+# iPhone Photo Backup Utility (Windows, Python)
 Are you a Windows PC user trying to back up the pictures and videos on your camera roll? Do you prefer the convenience and speed of USC-C file transfer instead of a cloud service? Trying to avoid using a paid app?
 
 

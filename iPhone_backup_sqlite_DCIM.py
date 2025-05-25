@@ -78,7 +78,7 @@ class MainWindow(QMainWindow):
             self.comboBox.addItem("Files")
 
     def load_data(self):
-        query = "SELECT fileID, relativePath, file FROM Files WHERE domain = 'CameraRollDomain' AND relativePath LIKE 'Media/DCIM/101APPLE/%'"
+        query = "SELECT fileID, relativePath FROM Files WHERE domain = 'CameraRollDomain' AND (relativePath LIKE 'Media/DCIM/101APPLE/%' OR relativePath LIKE 'Media/DCIM/102APPLE/%')"
         cursor = self.connection.cursor()
         cursor.execute(query)
         result = cursor.fetchall()
@@ -104,7 +104,7 @@ class MainWindow(QMainWindow):
         return ""
 
     def process_files(self):
-        query = "SELECT fileID, relativePath FROM Files WHERE domain = 'CameraRollDomain' AND relativePath LIKE 'Media/DCIM/101APPLE/%'"
+        query = "SELECT fileID, relativePath FROM Files WHERE domain = 'CameraRollDomain' AND (relativePath LIKE 'Media/DCIM/101APPLE/%' OR relativePath LIKE 'Media/DCIM/102APPLE/%')"
         cursor = self.connection.cursor()
         cursor.execute(query)
         files = cursor.fetchall()
